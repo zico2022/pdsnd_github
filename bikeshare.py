@@ -244,7 +244,7 @@ def raw_data(df):
     """5 rows of data will added in each key press and
     pressing no will end displaying the data"""
     print('Please enter y for yes to see 5 rows data at a time, press n for no to skip')
-    # display row of data after key press for yes and no for skip
+    # display row of data after key press for yes
     i = 0
     while (input().lower() != 'n'):
         i = i+10
