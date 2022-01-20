@@ -1,4 +1,4 @@
-#import NumPy & Pandas Libraries
+# import NumPy & Pandas Libraries
 
 import time
 import pandas as pd
@@ -244,7 +244,7 @@ def raw_data(df):
     """5 rows of data will added in each key press and
     pressing no will end displaying the data"""
     print('Please enter y for yes to see 5 rows data at a time, press n for no to skip')
-    #display row of data after key press for yes 
+    # display row of data after key press for yes and no for skip
     i = 0
     while (input().lower() != 'n'):
         i = i+5
@@ -273,4 +273,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-#https://towardsdatascience.com/top-python-libraries-numpy-pandas-8299b567d955
+# https://towardsdatascience.com/top-python-libraries-numpy-pandas-8299b567d955
