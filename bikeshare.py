@@ -247,7 +247,7 @@ def raw_data(df):
     # display row of data after key press for yes and no for skip
     i = 0
     while (input().lower() != 'n'):
-        i = i+5
+        i = i+10
         print(df.head(i))
 
 
